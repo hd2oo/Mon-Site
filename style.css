@@ -1,16 +1,16 @@
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: hsl(215, 28%, 17%);
+    justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
-    justify-content: space-between;
+
 }
 
 .logo {
     height: 100px; 
     padding: 20px;
-    margin-left: 300px;
 }
 
 .first-list ul {
@@ -19,16 +19,15 @@
     gap: 16px;
     text-decoration: none;
     padding: 40px;
-    margin-right: 320px;
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
-    margin: 50px;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 300px;
-    gap: 300px;
+    color: #F9FAF8;
+    padding: 50px;
 }
 
 .text h1 {
@@ -44,12 +43,10 @@
 .place-holder {
     display:flex;
     background-color: grey;
-    height: 200px;
-    width: 400px;
+    height: 360px;
+    width: 250px;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    margin-right: 150px;
 }
 
 .body {
@@ -63,37 +60,65 @@
 
 .body h2 {
     font-size: 36px;
-    text-align: center;
-    justify-content: center;
     font-weight: 900;
     margin-bottom: 5px;
 }
 
 .body p {
-    text-align: center;
-    margin-top: 0;
     font-size: 18px;
 }
 
 .button-container {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap : 100px;
-    align-items: stretch;
-    margin: 60px;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 .button-container button {
     height: 150px;
     width: 150px;
+    border-color: #3882F6;
+    background-color: rgba(255, 255, 255, 0.774);
 }
 
-.button-container div {
+.button-one {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    width: 140px;
-    font-size: 15px;
-    gap: 10px;
+    width: 150px;
+}
+
+.second-body {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.second-body p {
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.second-body div {
+    margin-left: 450px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+
+
 }
